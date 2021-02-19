@@ -11,7 +11,7 @@ source:
   sha256: 18339f15b89e8e991694e184b2e07081477d212eca613f02593a518ba27bf155
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,4 +41,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - IncQueryLabs
+    - FuzesiMate
