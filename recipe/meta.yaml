@@ -1,5 +1,5 @@
 {% set name = "incqueryserver-jupyter" %}
-{% set version = "0.17.1" %}
+{% set version = "0.18.0.post1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/incqueryserver-jupyter-{{ version }}.tar.gz
-  sha256: 18339f15b89e8e991694e184b2e07081477d212eca613f02593a518ba27bf155
+  sha256: 8263fbd4c4124777de2aae80f26e2c5e8487b20e6008e6945ffeff47e6452290
 
 build:
   number: 0
@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - incqueryserver-api-python-client ==0.17.1
+    - incqueryserver-api-python-client =={{ version }}
     - ipywidgets
     - mms-python-client
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -36,9 +36,12 @@ test:
 about:
   home: https://github.com/IncQueryLabs/incquery-server-jupyter
   license: Apache-2.0
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: IncQuery Server Client Extensions for Jupyter and Python
 
 extra:
   recipe-maintainers:
     - FuzesiMate
+    - pappist
+    - abelhegedus
+    - ujhelyiz
