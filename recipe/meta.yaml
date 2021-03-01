@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - incqueryserver-api-python-client ==0.17.1
+    - incqueryserver-api-python-client =={{ version }}
     - ipywidgets
     - mms-python-client
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -42,3 +42,6 @@ about:
 extra:
   recipe-maintainers:
     - FuzesiMate
+    - pappist
+    - abelhegedus
+    - ujhelyiz
