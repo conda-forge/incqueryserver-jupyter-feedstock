@@ -36,6 +36,7 @@ Installing `incqueryserver-jupyter` from the `conda-forge` channel can be achiev
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `incqueryserver-jupyter` can be installed with:
@@ -115,4 +116,7 @@ Feedstock Maintainers
 =====================
 
 * [@FuzesiMate](https://github.com/FuzesiMate/)
+* [@abelhegedus](https://github.com/abelhegedus/)
+* [@pappist](https://github.com/pappist/)
+* [@ujhelyiz](https://github.com/ujhelyiz/)
 
