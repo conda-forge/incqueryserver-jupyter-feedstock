@@ -117,6 +117,7 @@ Feedstock Maintainers
 
 * [@FuzesiMate](https://github.com/FuzesiMate/)
 * [@abelhegedus](https://github.com/abelhegedus/)
+* [@bergmanngabor](https://github.com/bergmanngabor/)
 * [@pappist](https://github.com/pappist/)
 * [@ujhelyiz](https://github.com/ujhelyiz/)
 
