@@ -1,4 +1,4 @@
 channels:
   targets:
-  - [conda-forge, dev]
+    - [conda-forge, dev]
 conda_forge_output_validation: true
