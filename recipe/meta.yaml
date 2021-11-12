@@ -1,5 +1,5 @@
 {% set name = "incqueryserver-jupyter" %}
-{% set version = "0.20.0" %}
+{% set version = "0.21.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/incqueryserver-jupyter-{{ version }}.tar.gz
-  sha256: 7315a7c65a725e7c5cf18b1ba3dc251ca50bd95c14aec134614e0b88fcf97c98
+  sha256: 4a3f386b137dba803989e48923ef716f870eb1f155c222625a197b92102fd04a
 
 build:
   number: 0
